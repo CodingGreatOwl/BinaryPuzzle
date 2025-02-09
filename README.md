@@ -8,6 +8,14 @@ A Python-based solution for solving 10x10 [binary puzzles](https://en.wikipedia.
 ## Initialize with a 10x10 grid (0 for empty cells)
 The inputs are given as two lists. Each one containing the coordinates of the X and O given in the puzzle. The coordinates are tuples representing the x and y coordinate of the symbol on the grid. The grid coordinate starts at 0 and ends at 9, such that the coordinate of the upper left case is (0,0) and the bottom right is (9,9). 
 
+## How to use
+Clone the repository then use the following commands:
+```
+cd BinaryPuzzle
+python binaryPuzzle
+```
+
+
 ## Algorithm
 The solver uses a combination of:
 
@@ -17,3 +25,4 @@ Key Features:
 Detects invalid puzzles early during solving.
 
 Efficiently skips impossible numbers based on row and column constraints.
+    
