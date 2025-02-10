@@ -2,7 +2,7 @@
 Sample App Tests
 """
 
-from binnoxxo.board import Board
+from binaryPuzzle.board import Board
 import unittest
 
 class TestBoardMethods_IsComplete(unittest.TestCase):
